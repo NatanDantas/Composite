@@ -1,0 +1,17 @@
+package composite;
+
+public class Leaf implements Component {
+    private String nome;
+    private double preco;
+
+    public Leaf(String nome, double preco) {
+        this.nome = nome;
+        this.preco = preco;
+    }
+
+    @Override
+    public double getPreco() {
+        return preco;
+    }
+
+}
