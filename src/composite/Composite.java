@@ -29,5 +29,12 @@ public class Composite implements Component{
         
     }
 
+    @Override
+    public String toString() {
+        return "Composite [lista=" + lista + ", nome=" + nome + "]";
+    }
+
+
+
 
 }

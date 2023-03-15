@@ -14,4 +14,11 @@ public class Leaf implements Component {
         return preco;
     }
 
+    @Override
+    public String toString() {
+        return "Leaf [nome=" + nome + ", preco=" + preco + "]";
+    }
+
+    
+
 }
