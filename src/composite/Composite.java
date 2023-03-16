@@ -33,8 +33,4 @@ public class Composite implements Component{
     public String toString() {
         return "Composite [lista=" + lista + ", nome=" + nome + "]";
     }
-
-
-
-
 }
